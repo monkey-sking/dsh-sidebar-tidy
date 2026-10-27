@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "author": "monkey-sking",
   "description": "DSH 侧边栏瘦身：隐藏指定面板入口（插件 / 插件市场），不删除宿主插件本身",
   "main": "./index.js",
   "exports": {
@@ -12,8 +13,13 @@
   "files": [
     "index.js",
     "client.js",
-    "cordis.patch.yml"
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
   ],
+  "scripts": {
+    "test": "node --test \"test/*_test.mjs\""
+  },
   "keywords": [
     "dsh",
     "deepseek-harness",
@@ -21,6 +27,14 @@
     "sidebar"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monkey-sking/dsh-sidebar-tidy.git"
+  },
+  "homepage": "https://github.com/monkey-sking/dsh-sidebar-tidy#readme",
+  "bugs": {
+    "url": "https://github.com/monkey-sking/dsh-sidebar-tidy/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
