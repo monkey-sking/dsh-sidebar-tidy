@@ -1,0 +1,20 @@
+# dsh-sidebar-tidy — 侧边栏瘦身
+#
+# 侧边栏图标行里的条目是各插件直接注册到 sidebar.panellist 的，
+# 宿主没有提供「隐藏某一行」的开关（注册选项只有 id / order / label）。
+# 所以本插件在浏览器侧按 id 把指定行从 DOM 里隐藏掉：
+#   1) 从 ctx.slots.entriesOfSlot('sidebar.panellist') 读真实的 id 顺序
+#      （与 ui-sidebar 的 syncPanels 同源、同排序），
+#   2) 找到侧栏那个 nav，把对应序号的子元素 display:none。
+# 只影响显示，不改插件启停，也不动 main 面板注册。
+
+- insert:
+    - id: sidebar-tidy
+      name: 'dsh-sidebar-tidy'
+      config:
+        enabled: true
+        # 要隐藏的侧栏条目 id（逗号分隔也行，见 client.js 的读取逻辑）。
+        # plugins      = 「插件」
+        # dsh-market   = 「插件市场」（更推荐用它自己的官方开关：
+        #                插件市场设置里点「不显示」，或 .dsh-market/state.json 的 sidebarEntry:false）
+        hide: 'plugins'

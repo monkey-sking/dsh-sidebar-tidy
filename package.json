@@ -1,0 +1,35 @@
+{
+  "name": "dsh-sidebar-tidy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH 侧边栏瘦身：隐藏指定面板入口（插件 / 插件市场），不删除宿主插件本身",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "sidebar"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}
