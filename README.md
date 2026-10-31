@@ -1,5 +1,9 @@
 # dsh-sidebar-tidy
 
+<!-- badges:start -->
+[![Stars](https://img.shields.io/github/stars/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/stargazers) [![Forks](https://img.shields.io/github/forks/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/network/members) [![Last commit](https://img.shields.io/github/last-commit/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/commits/main)
+<!-- badges:end -->
+
 隐藏 DSH 侧边栏里用不上的面板入口（默认藏「插件」那一行）。
 
 **只做视觉隐藏，不卸载任何宿主插件** —— 被藏起来的插件照常加载、照常工作。
