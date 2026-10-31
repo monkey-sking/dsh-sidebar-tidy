@@ -1,7 +1,7 @@
 # dsh-sidebar-tidy
 
 <!-- badges:start -->
-[![Stars](https://img.shields.io/github/stars/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/stargazers) [![Forks](https://img.shields.io/github/forks/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/network/members) [![Last commit](https://img.shields.io/github/last-commit/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/commits/main)
+[![Stars](https://img.shields.io/github/stars/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/stargazers) [![Forks](https://img.shields.io/github/forks/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/network/members) [![Last commit](https://img.shields.io/github/last-commit/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/commits/main) [![License](https://img.shields.io/github/license/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/blob/main/LICENSE) [![Language](https://img.shields.io/github/languages/top/monkey-sking/dsh-sidebar-tidy?style=flat-square)](https://github.com/monkey-sking/dsh-sidebar-tidy/search?l=)
 <!-- badges:end -->
 
 隐藏 DSH 侧边栏里用不上的面板入口（默认藏「插件」那一行）。
